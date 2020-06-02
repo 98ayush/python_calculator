@@ -33,7 +33,7 @@ def compound():
     print("your total amount after "+str(t)+" years of compound interest is "+str(a))
     c=a-p
     print("compound interest after" +str(t)+" years is "+str(c))
-    
+
 def calci():
     print("Welcome to Finance Calculator World")
     print("  1.Addition  ")
@@ -62,32 +62,5 @@ def calci():
 
 print("welcome")
 calci()
-
-
-def calci():
-    print("Welcome to Finance Calculator World")
-    print("  1.Addition  ")
-    print("  2.Substraction  ")
-    print("  3.Multiplication  ")
-    print("  4.Dvision  ")
-    print("  5.Simple Interest  ")
-    print("  6.Compound interest  ")
-    value=int(input("Enter your your between 1-6  "))
-    if value==1:
-        addition()
-    elif value==2:
-        sub()
-    elif value==3:
-        mul()
-    elif value==4:
-        div()
-    elif value==5:
-        simple()
-    elif value==6:
-        compound()
-    else:
-        print("please enter value betwwen 1-6")
-        calci()
-
 
 print("Thanks for using calculator")
