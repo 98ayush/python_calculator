@@ -42,7 +42,7 @@ def calci():
     print("  4.Dvision  ")
     print("  5.Simple Interest  ")
     print("  6.Compound interest  ")
-    value=int(input("Enter your your between 1-6  "))
+    value=int(input("Enter your value between 1-6  "))
     if value==1:
         addition()
     elif value==2:
